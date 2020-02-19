@@ -5,4 +5,4 @@ As a way to play with functions and loops, let's implement a square root functio
 
 Computers typically compute the square root of x using a loop. Starting with some guess z, we can adjust z based on how close z² is to x, producing a better guess:
 
-z -= (z*z - x) / (2*z)
+`z -= (z*z - x) / (2*z)`
