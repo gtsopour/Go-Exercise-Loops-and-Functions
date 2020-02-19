@@ -1,2 +1,2 @@
-# Go-Exercise-Loops-and-Functions
+# Go Exercise: Loops and Functions
 Exercise: Loops and Functions
