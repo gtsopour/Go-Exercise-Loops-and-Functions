@@ -15,16 +15,16 @@ func _Sqrt(x float64) float64 {
 }
 
 func Sqrt(x float64) float64 {
-  z := float64(1)
-  for {
-    t := z
-    z -= (z*z - x) / (2*z)
-    fmt.Printf("z %v, t = %v\n", z, t)
-    if math.Abs(t-z) < 1e-6 {
-      break
-    }
-  }
-  return z
+	z := float64(1)
+	for {
+		t := z
+		z -= (z*z - x) / (2*z)
+		fmt.Printf("z %v, t = %v\n", z, t)
+		if math.Abs(t-z) < 1e-6 {
+			break
+		}
+	}
+	return z
 }
 
 func main() {
